@@ -1,5 +1,7 @@
 <div align="center">
 
+**简体中文** · [日本語](README.ja.md) · [English](README.en.md)
+
 # 🎸 bandori.fans
 
 **你的非官方 BanG Dream! 粉丝资料库**

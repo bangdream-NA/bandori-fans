@@ -1,0 +1,99 @@
+name: Data correction (English)
+description: Report incorrect, missing, or outdated information on the site
+title: "[Data] "
+assignees: []
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for helping us improve data quality! This repository receives public feedback and data corrections for bandori.fans, which the maintenance team will verify and follow up on.
+        When available, you may prefer the on-site form opened from a specific entry’s “Correction” link, or you may continue reporting the issue here. Do not submit personal information, nonpublic material, or other sensitive information.
+
+  - type: input
+    id: affected_url
+    attributes:
+      label: Entry or page URL
+      description: Provide the exact page where the information currently appears. If the entire entry is missing, enter the most relevant list page.
+      placeholder: https://bandori.fans/...
+    validations:
+      required: true
+
+  - type: dropdown
+    id: data_type
+    attributes:
+      label: Data category
+      options:
+        - News
+        - Live show or event
+        - Song
+        - Band
+        - Character
+        - Voice actor
+        - Venue
+        - CD or release
+        - Calendar
+        - Other
+    validations:
+      required: true
+
+  - type: input
+    id: affected_field
+    attributes:
+      label: Affected field
+      description: For example, title, date, performers, tracklist, venue, or release information.
+      placeholder: Live show date
+    validations:
+      required: true
+
+  - type: textarea
+    id: current_value
+    attributes:
+      label: Current content
+      description: Describe the incorrect, missing, or outdated content currently shown on the page.
+      placeholder: The page currently shows ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected_value
+    attributes:
+      label: Correct content
+      description: State what you believe the corrected content should be.
+      placeholder: The correct content should be ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Supporting evidence (strongly recommended)
+      description: Whenever possible, provide an official announcement, official website, physical publication details, or another publicly verifiable source.
+      placeholder: Source links, publication names, and any necessary explanation ...
+
+  - type: dropdown
+    id: locale
+    attributes:
+      label: Affected language (optional)
+      options:
+        - Language-independent
+        - Simplified Chinese
+        - 日本語
+        - English
+        - Other
+
+  - type: textarea
+    id: additional_context
+    attributes:
+      label: Screenshots or additional context (optional)
+      description: You may attach a screenshot of the current page or any other information that helps us verify the correction.
+
+  - type: checkboxes
+    id: confirmation
+    attributes:
+      label: Pre-submission checklist
+      options:
+        - label: I confirmed that this data issue still exists on the current page and searched for an existing Issue about it.
+          required: true
+        - label: I confirm that the submitted information may be shared publicly and contains no personal information, nonpublic material, or other sensitive information.
+          required: true

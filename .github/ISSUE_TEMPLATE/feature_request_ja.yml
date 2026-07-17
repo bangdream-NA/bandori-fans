@@ -1,0 +1,66 @@
+name: 機能リクエスト（日本語）
+description: 新機能、利用体験の改善、または新しいユースケースを提案します
+title: "[Feature] "
+labels:
+  - enhancement
+assignees: []
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ご提案ありがとうございます！このリポジトリでは、bandori.fans に関する公開フィードバックを受け付け、メンテナンスチームがまとめて評価・対応します。
+        実際の利用場面と解決したい問題をできるだけ具体的に説明してください。技術的な実装方法まで提示する必要はありません。
+
+  - type: textarea
+    id: scenario
+    attributes:
+      label: 利用場面と現在の問題
+      description: どのような状況で、どのような不便を感じていますか？
+      placeholder: ……したいとき、現在は……となっています。
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: 提案する機能または期待する結果
+      description: 実現してほしい動作や利用体験を説明してください。
+      placeholder: ……できるようになってほしいです。
+    validations:
+      required: true
+
+  - type: input
+    id: related_url
+    attributes:
+      label: 関連ページの URL（任意）
+      placeholder: https://bandori.fans/...
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: 現在の代替手段（任意）
+      description: 現在利用している一時的な回避策があれば、ここに記載してください。
+
+  - type: textarea
+    id: examples
+    attributes:
+      label: 例または参考資料（任意）
+      description: イメージ図、参考リンク、類似製品の操作例などを添付できます。
+
+  - type: textarea
+    id: additional_context
+    attributes:
+      label: 補足情報（任意）
+
+  - type: checkboxes
+    id: confirmation
+    attributes:
+      label: 投稿前の確認
+      options:
+        - label: 既存の Issue を検索し、同じ、または非常によく似た提案がないことを確認しました。
+          required: true
+        - label: この Issue は一つの主要な要望に絞っています。
+          required: true
+        - label: 上記の内容に個人情報やその他の機密情報が含まれていないことを確認しました。
+          required: true

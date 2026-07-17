@@ -1,0 +1,66 @@
+name: Feature request (English)
+description: Propose a new feature, experience improvement, or use case
+title: "[Feature] "
+labels:
+  - enhancement
+assignees: []
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for your suggestion! This repository receives public feedback for bandori.fans, which the maintenance team will evaluate and follow up on.
+        Please describe the real-world use case and the problem you want to solve. You do not need to provide a specific technical implementation.
+
+  - type: textarea
+    id: scenario
+    attributes:
+      label: Use case and current problem
+      description: In what situation did you encounter an inconvenience, and what was it?
+      placeholder: When I need to ..., the current experience is ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed feature or expected result
+      description: Describe the behavior or experience you would like to see.
+      placeholder: I would like to be able to ...
+    validations:
+      required: true
+
+  - type: input
+    id: related_url
+    attributes:
+      label: Related page URL (optional)
+      placeholder: https://bandori.fans/...
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Current workaround (optional)
+      description: If a temporary workaround exists, describe it here.
+
+  - type: textarea
+    id: examples
+    attributes:
+      label: Examples or references (optional)
+      description: You may include mockups, reference links, or interaction examples from similar products.
+
+  - type: textarea
+    id: additional_context
+    attributes:
+      label: Additional context (optional)
+
+  - type: checkboxes
+    id: confirmation
+    attributes:
+      label: Pre-submission checklist
+      options:
+        - label: I searched the existing Issues and did not find the same or a highly similar suggestion.
+          required: true
+        - label: This Issue focuses on one primary request.
+          required: true
+        - label: I confirm that the content above contains no personal information or other sensitive information.
+          required: true

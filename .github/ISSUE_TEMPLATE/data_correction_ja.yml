@@ -1,0 +1,99 @@
+name: データ訂正（日本語）
+description: サイト内データの誤り、不足、または更新が必要な箇所を報告します
+title: "[Data] "
+assignees: []
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        データ品質の向上にご協力いただき、ありがとうございます！このリポジトリでは、bandori.fans に関する公開フィードバックとデータ訂正を受け付け、メンテナンスチームがまとめて確認・対応します。
+        各項目の「訂正」から送信できる場合は、サイト内フォームを優先してご利用いただけますが、こちらでの報告も可能です。個人情報、未公開情報、その他の機密情報は投稿しないでください。
+
+  - type: input
+    id: affected_url
+    attributes:
+      label: 項目またはページの URL
+      description: 該当データが現在掲載されている具体的なページを入力してください。項目自体がまだ登録されていない場合は、最も関連する一覧ページを入力してください。
+      placeholder: https://bandori.fans/...
+    validations:
+      required: true
+
+  - type: dropdown
+    id: data_type
+    attributes:
+      label: データの種類
+      options:
+        - ニュース
+        - ライブまたはイベント
+        - 楽曲
+        - バンド
+        - キャラクター
+        - キャスト
+        - 会場
+        - CD またはリリース
+        - カレンダー
+        - その他
+    validations:
+      required: true
+
+  - type: input
+    id: affected_field
+    attributes:
+      label: 該当フィールド
+      description: タイトル、日付、出演者、楽曲、会場、リリース情報など。
+      placeholder: 公演日
+    validations:
+      required: true
+
+  - type: textarea
+    id: current_value
+    attributes:
+      label: 現在の内容
+      description: ページに現在表示されている誤り、不足、または古い内容を説明してください。
+      placeholder: 現在は……と表示されています。
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected_value
+    attributes:
+      label: 正しい内容
+      description: 訂正後にどのような内容とすべきか、具体的に記載してください。
+      placeholder: 正しくは……です。
+    validations:
+      required: true
+
+  - type: textarea
+    id: evidence
+    attributes:
+      label: 確認根拠（強く推奨）
+      description: 公式発表、公式サイト、現物資料の記載、その他公開の場で確認できる情報源を、できるだけ提示してください。
+      placeholder: 情報源のリンク、資料名、必要な補足説明……
+
+  - type: dropdown
+    id: locale
+    attributes:
+      label: 対象言語（任意）
+      options:
+        - 言語共通
+        - 简体中文
+        - 日本語
+        - English
+        - その他
+
+  - type: textarea
+    id: additional_context
+    attributes:
+      label: スクリーンショットまたは補足説明（任意）
+      description: 現在のページのスクリーンショットや、確認に役立つその他の情報を添付できます。
+
+  - type: checkboxes
+    id: confirmation
+    attributes:
+      label: 投稿前の確認
+      options:
+        - label: 現在もこのデータ上の問題が存在することを確認し、同じ内容の Issue がないか検索しました。
+          required: true
+        - label: 投稿内容が公開可能であり、個人情報、未公開情報、その他の機密情報を含まないことを確認しました。
+          required: true
