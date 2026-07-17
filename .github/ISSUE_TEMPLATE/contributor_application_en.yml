@@ -1,0 +1,177 @@
+name: Contributor application (English)
+description: Submit public work and collaboration information to apply to help develop and maintain bandori.fans
+title: "[Contributor application] "
+assignees: []
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for your interest in contributing to bandori.fans!
+
+        This Issue and all of its contents will be public. Do not enter your QQ, WeChat, phone number, private email address, or legal name, and do not submit private code, keys, internal links, undisclosed security vulnerabilities, or other sensitive information.
+
+        Maintainers will review your public work, technical experience, problem analysis, and collaboration habits. If your application is approved, we will first use a contact channel that you have voluntarily made public on your GitHub profile. If your profile lists no public contact channel, a maintainer will provide a project-controlled private contact method in the Issue. Do not publish private contact details in the Issue for the purpose of applying. Submitting an application does not guarantee an invitation.
+
+  - type: dropdown
+    id: contribution_area
+    attributes:
+      label: Areas you would like to contribute to
+      description: You may select multiple areas.
+      multiple: true
+      options:
+        - Frontend development
+        - Backend development
+        - Data processing and maintenance
+        - Testing and quality assurance
+        - Deployment and infrastructure
+        - Documentation and localization
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: public_work
+    attributes:
+      label: Public code samples and contributions
+      description: Provide 1–3 publicly verifiable GitHub repositories, Pull Requests, Gists, or online projects, and explain which parts you personally completed. If you have no existing public work, you may create a public Gist. Do not paste large amounts of code or submit sensitive information.
+      placeholder: |
+        - Link:
+        - Parts I was responsible for:
+        - Languages and technologies used:
+        - Problem solved:
+        - Code location that best demonstrates my skills:
+    validations:
+      required: true
+
+  - type: textarea
+    id: technical_experience
+    attributes:
+      label: Technical experience
+      description: Briefly describe the languages, frameworks, and tools you know, along with relevant experience in testing, databases, Git, CI/CD, or related areas. Do not disclose confidential information about employers or projects.
+      placeholder: |
+        For example:
+        - TypeScript / React: duration of use, proficiency, and project responsibilities
+        - Python: projects and the parts for which you were responsible
+        - Other experience with databases, testing, deployment, and so on
+    validations:
+      required: true
+
+  - type: dropdown
+    id: coding_agent_level
+    attributes:
+      label: Coding Agent proficiency
+      description: This includes Agent tools that can participate in code analysis and modification, such as Codex, Claude Code, and GitHub Copilot.
+      options:
+        - I have not used one yet
+        - Basic use for simple questions or code generation
+        - Independent use, including reviewing diffs and running tests
+        - Proficient use, including organizing context, decomposing tasks, and correcting Agent mistakes
+        - Able to design multi-Agent or automated development workflows
+    validations:
+      required: true
+
+  - type: textarea
+    id: coding_agent_experience
+    attributes:
+      label: Coding Agent use case
+      description: Describe the tools you have used, the tasks you completed, and how you inspected code diffs, verified tests, and avoided accepting incorrect results without review. Enter “None” if you have no relevant experience.
+      placeholder: |
+        - Tools used:
+        - Task completed:
+        - How I provided context and decomposed the task:
+        - How I reviewed, tested, and corrected the result:
+    validations:
+      required: true
+
+  - type: dropdown
+    id: github_cicd_level
+    attributes:
+      label: GitHub CI/CD proficiency
+      options:
+        - I have not used GitHub Actions yet
+        - Able to read and run existing workflows
+        - Able to independently write and maintain basic workflows
+        - Proficient with checks, caching, artifacts, environments, and deployment configuration
+        - Able to own complex workflow design, troubleshooting, releases, and rollbacks
+    validations:
+      required: true
+
+  - type: textarea
+    id: github_cicd_experience
+    attributes:
+      label: GitHub CI/CD practical experience
+      description: Describe a GitHub Actions workflow or delivery process you have actually maintained, including its triggers, checks or deployment steps, failure investigation, and rollback approach. Do not paste Secrets or other sensitive configuration. Enter “None” if you have no relevant experience.
+      placeholder: |
+        - Workflow purpose and link (if public):
+        - Triggers and major steps:
+        - How I handled failed checks:
+        - Release, rollback, or permission security measures:
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem_analysis
+    attributes:
+      label: Problem analysis example
+      description: Preferably, choose a technical problem you handled personally and explain the symptoms, hypotheses, evidence, diagnosis, fix, and validation. If you have no suitable public example, answer the hypothetical question below.
+      placeholder: |
+        Real example:
+        - Symptoms:
+        - Initial hypotheses and evidence:
+        - Diagnostic process and root cause:
+        - Solution and validation:
+        - Outcome and reflection:
+
+        If you have no suitable example, answer this question:
+        A web page occasionally displays stale data but recovers after a refresh. How would you reproduce the issue and distinguish among frontend caching, the API, the CDN, and source-data problems? How would you verify that the fix introduced no regressions?
+    validations:
+      required: true
+
+  - type: textarea
+    id: collaboration
+    attributes:
+      label: Collaboration habits
+      description: Explain how you usually clarify ambiguous requirements, decompose tasks, organize commits, participate in Code Review, handle disagreements, and add tests and documentation.
+      placeholder: Briefly describe your collaboration process and habits.
+    validations:
+      required: true
+
+  - type: dropdown
+    id: weekly_time
+    attributes:
+      label: Estimated weekly availability
+      options:
+        - Less than 2 hours
+        - 2–5 hours
+        - 5–10 hours
+        - More than 10 hours
+        - Not sure yet
+    validations:
+      required: true
+
+  - type: dropdown
+    id: participation_period
+    attributes:
+      label: Expected participation period
+      options:
+        - Less than one month
+        - 1–3 months
+        - 3–6 months
+        - More than six months
+        - I hope to contribute long term
+        - Not sure yet
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: confirmation
+    attributes:
+      label: Pre-submission checklist
+      options:
+        - label: I confirm that the content above may be public and contains no private contact details, legal identity information, private code, keys, or other sensitive information.
+          required: true
+        - label: I confirm that the work links and descriptions of my personal contributions are truthful and accurate.
+          required: true
+        - label: I am willing to receive Code Review and, if requested, complete a small public assessment task.
+          required: true

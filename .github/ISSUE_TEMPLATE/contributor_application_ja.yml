@@ -1,0 +1,177 @@
+name: 共同開発参加申請（日本語）
+description: 公開作品と協働に関する情報を提出し、bandori.fans の開発・保守への参加を申請します
+title: "[共同開発参加申請] "
+assignees: []
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        bandori.fans の共同開発に関心をお寄せいただき、ありがとうございます！
+
+        この Issue とその内容はすべて公開されます。QQ、WeChat、電話番号、私用メールアドレス、実名を記載しないでください。また、非公開コード、鍵、内部リンク、未公開のセキュリティ脆弱性、その他の機密情報を投稿しないでください。
+
+        メンテナーは、公開作品、技術経験、問題分析、協働姿勢をもとに審査します。審査を通過した場合は、まず GitHub プロフィールでご本人が公開している連絡手段を使用します。公開の連絡手段がない場合、メンテナーが Issue 内でプロジェクト管理下の非公開連絡窓口を案内します。申請のために個人的な連絡先を Issue で公開しないでください。申請しても必ず招待されるとは限りません。
+
+  - type: dropdown
+    id: contribution_area
+    attributes:
+      label: 参加を希望する分野
+      description: 複数選択できます。
+      multiple: true
+      options:
+        - フロントエンド開発
+        - バックエンド開発
+        - データ処理・保守
+        - テスト・品質保証
+        - デプロイ・インフラストラクチャ
+        - ドキュメント・ローカライズ
+        - その他
+    validations:
+      required: true
+
+  - type: textarea
+    id: public_work
+    attributes:
+      label: 公開コード作品と貢献
+      description: 公開の場で確認できる GitHub リポジトリ、Pull Request、Gist、オンラインプロジェクトを 1～3 件提示し、ご自身が担当した部分を説明してください。公開作品がまだない場合は、新しい公開 Gist を作成しても構いません。大量のコードや機密情報を直接貼り付けないでください。
+      placeholder: |
+        - リンク：
+        - 自分が担当した部分：
+        - 使用した言語と技術：
+        - 解決した問題：
+        - 能力が最もよく表れているコードの場所：
+    validations:
+      required: true
+
+  - type: textarea
+    id: technical_experience
+    attributes:
+      label: 技術経験
+      description: 習熟している言語、フレームワーク、ツール、およびテスト、データベース、Git、CI/CD などの経験を簡潔に説明してください。勤務先やプロジェクトの機密情報は記載しないでください。
+      placeholder: |
+        例：
+        - TypeScript / React：使用期間、習熟度、プロジェクトでの担当
+        - Python：参加したプロジェクトと自分が担当した部分
+        - データベース、テスト、デプロイなどのその他の経験
+    validations:
+      required: true
+
+  - type: dropdown
+    id: coding_agent_level
+    attributes:
+      label: Coding Agent の習熟度
+      description: Codex、Claude Code、GitHub Copilot など、コードの分析や変更に参加できる Agent ツールを含みます。
+      options:
+        - 使用経験なし
+        - 基礎レベル：簡単な質問応答やコード生成ができる
+        - 自立レベル：自分で使用し、差分のレビューとテストを実行できる
+        - 熟練レベル：コンテキストを整理し、タスクを分割し、Agent の誤りに対処できる
+        - 複数 Agent または自動化された開発ワークフローを設計できる
+    validations:
+      required: true
+
+  - type: textarea
+    id: coding_agent_experience
+    attributes:
+      label: Coding Agent の利用事例
+      description: 使用したツール、完了したタスク、コード差分をどのように確認したか、テストでどのように検証したか、誤った結果をそのまま採用しないために何をしたかを説明してください。経験がない場合は「なし」と記載してください。
+      placeholder: |
+        - 使用したツール：
+        - 完了したタスク：
+        - コンテキストの提供方法とタスクの分割方法：
+        - レビュー、テスト、修正の方法：
+    validations:
+      required: true
+
+  - type: dropdown
+    id: github_cicd_level
+    attributes:
+      label: GitHub CI/CD の習熟度
+      options:
+        - GitHub Actions の使用経験なし
+        - 既存のワークフローを読み、実行できる
+        - 基本的なワークフローを自立して作成・保守できる
+        - チェック、キャッシュ、成果物、環境、デプロイを熟練して設定できる
+        - 複雑なワークフロー設計、トラブルシューティング、リリース、ロールバックを担当できる
+    validations:
+      required: true
+
+  - type: textarea
+    id: github_cicd_experience
+    attributes:
+      label: GitHub CI/CD の実践例
+      description: 実際に保守した GitHub Actions またはデリバリーフローについて、トリガー条件、チェックまたはデプロイ内容、失敗の調査方法、ロールバック方法を説明してください。Secret やその他の機密設定は貼り付けないでください。経験がない場合は「なし」と記載してください。
+      placeholder: |
+        - ワークフローの用途とリンク（公開可能な場合）：
+        - トリガー条件と主な手順：
+        - チェック失敗への対処方法：
+        - リリース、ロールバック、権限に関する安全対策：
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem_analysis
+    attributes:
+      label: 問題分析の事例
+      description: ご自身で対応した技術的な問題を一つ選び、現象、仮説、証拠、原因の特定、修正、検証について説明してください。適切な公開事例がない場合は、下記の仮想問題に回答してください。
+      placeholder: |
+        実際の事例：
+        - 問題の現象：
+        - 当初の仮説と証拠：
+        - 原因特定の過程と根本原因：
+        - 解決策と検証：
+        - 結果と振り返り：
+
+        適切な事例がない場合は、次の問いに回答してください：
+        あるウェブページで古いデータが時々表示されますが、再読み込みすると正常に戻ります。どのように再現し、フロントエンドキャッシュ、API、CDN、元データの問題をどのように切り分けますか？修正によってリグレッションが発生していないことをどのように検証しますか？
+    validations:
+      required: true
+
+  - type: textarea
+    id: collaboration
+    attributes:
+      label: 協働の進め方
+      description: 不明確な要件の確認、タスクの分割、コミットの構成、Code Review への参加、意見の相違への対応、テストとドキュメントの追加を普段どのように行っているか説明してください。
+      placeholder: 協働の流れや普段心がけていることを簡潔に説明してください。
+    validations:
+      required: true
+
+  - type: dropdown
+    id: weekly_time
+    attributes:
+      label: 週あたりの参加可能時間
+      options:
+        - 2 時間未満
+        - 2～5 時間
+        - 5～10 時間
+        - 10 時間以上
+        - 現時点では未定
+    validations:
+      required: true
+
+  - type: dropdown
+    id: participation_period
+    attributes:
+      label: 参加を予定している期間
+      options:
+        - 1 か月以内
+        - 1～3 か月
+        - 3～6 か月
+        - 6 か月以上
+        - 長期的な参加を希望
+        - 現時点では未定
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: confirmation
+    attributes:
+      label: 投稿前の確認
+      options:
+        - label: 上記の内容が公開可能であり、個人的な連絡先、実名、非公開コード、鍵、その他の機密情報を記載していないことを確認しました。
+          required: true
+        - label: 作品へのリンクと自分の貢献に関する説明が、正確で事実に基づいていることを確認しました。
+          required: true
+        - label: Code Review を受け入れ、必要に応じて小規模な公開課題に取り組む意思があります。
+          required: true

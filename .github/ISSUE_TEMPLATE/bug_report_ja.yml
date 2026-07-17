@@ -1,0 +1,85 @@
+name: 不具合報告（日本語）
+description: ウェブサイトのページ、操作、表示、検索、カレンダー購読で再現可能な問題を報告します
+title: "[Bug] "
+labels:
+  - bug
+assignees: []
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ご報告ありがとうございます！このリポジトリでは、bandori.fans に関する公開フィードバックとデータ訂正を受け付け、メンテナンスチームがまとめて対応します。
+        公開の場で確認できる現象に絞り、アカウント情報、鍵、個人情報、その他の機密情報は投稿しないでください。データの内容に誤りがある場合は、「データ訂正」フォームをご利用ください。
+        セキュリティ脆弱性に関わる可能性がある場合、再現手順の詳細、攻撃用ペイロード、機密データを公開 Issue で開示しないでください。
+
+  - type: input
+    id: affected_url
+    attributes:
+      label: 問題が発生したページの URL
+      description: 問題が発生する具体的なページの URL を入力してください。サイト全体の問題の場合は、再現できる任意のページを入力してください。
+      placeholder: https://bandori.fans/...
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual_behavior
+    attributes:
+      label: 問題の説明と実際の結果
+      description: 何が起きたのか、ページが実際にどのように表示または動作したのかを説明してください。
+      placeholder: ……を行ったときに……が発生し、実際には……となりました。
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: 再現手順
+      description: 問題を安定して、または比較的容易に再現できる操作手順を記載してください。
+      placeholder: |
+        1. ……を開く
+        2. ……を選択またはクリックする
+        3. ……が発生する
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected_behavior
+    attributes:
+      label: 期待される結果
+      placeholder: 正常であれば……となるはずです。
+    validations:
+      required: true
+
+  - type: input
+    id: environment
+    attributes:
+      label: 利用環境（任意）
+      description: 端末の種類、OS、ブラウザとそのバージョンなど。
+      placeholder: Windows 11 / Chrome バージョン……
+
+  - type: textarea
+    id: evidence
+    attributes:
+      label: スクリーンショット、画面録画、エラーメッセージ（任意）
+      description: 画像や動画を直接添付するか、機密情報を含まないエラーメッセージを貼り付けてください。
+
+  - type: textarea
+    id: additional_context
+    attributes:
+      label: 補足情報（任意）
+      description: 問題が発生する範囲や頻度の確認に役立つその他の情報。
+
+  - type: checkboxes
+    id: confirmation
+    attributes:
+      label: 投稿前の確認
+      options:
+        - label: 既存の Issue を検索し、同じ問題がないことを確認しました。
+          required: true
+        - label: この Issue は一つの主要な問題に絞り、関連する現象は補足情報に記載しました。
+          required: true
+        - label: 上記の内容に、アカウント情報、鍵、個人情報、その他の機密情報が含まれていないことを確認しました。
+          required: true
+        - label: この報告にセキュリティ脆弱性の悪用手順が含まれていないことを確認しました。セキュリティ上の問題を公開 Issue で開示することはありません。
+          required: true

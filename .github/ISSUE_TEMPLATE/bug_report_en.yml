@@ -1,0 +1,85 @@
+name: Bug report (English)
+description: Report a reproducible issue with a page, interaction, display, search, or calendar subscription
+title: "[Bug] "
+labels:
+  - bug
+assignees: []
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for your feedback! This repository receives public feedback and data corrections for bandori.fans, which the maintenance team will review and follow up on.
+        Please focus on publicly observable behavior, and do not submit accounts, keys, personal information, or other sensitive information. If the issue concerns incorrect site data, please use the “Data correction” form instead.
+        If you suspect a security vulnerability, do not disclose reproduction details, attack payloads, or any sensitive data in a public Issue.
+
+  - type: input
+    id: affected_url
+    attributes:
+      label: Affected page URL
+      description: Provide the exact page where the issue occurs. For a site-wide issue, enter any page where it can be reproduced.
+      placeholder: https://bandori.fans/...
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual_behavior
+    attributes:
+      label: Problem description and actual result
+      description: Explain what happened and what the page actually displayed or did.
+      placeholder: When I ..., I noticed ..., and the actual result was ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Steps to reproduce
+      description: List the steps that consistently or readily trigger the issue.
+      placeholder: |
+        1. Open ...
+        2. Select or click ...
+        3. Observe ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected_behavior
+    attributes:
+      label: Expected result
+      placeholder: Normally, it should ...
+    validations:
+      required: true
+
+  - type: input
+    id: environment
+    attributes:
+      label: Environment (optional)
+      description: For example, device type, operating system, browser, and version.
+      placeholder: Windows 11 / Chrome version ...
+
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Screenshots, screen recordings, or error messages (optional)
+      description: You can drag in an image or video, or paste error text that contains no sensitive information.
+
+  - type: textarea
+    id: additional_context
+    attributes:
+      label: Additional context (optional)
+      description: Any other information that helps determine the scope or frequency of the issue.
+
+  - type: checkboxes
+    id: confirmation
+    attributes:
+      label: Pre-submission checklist
+      options:
+        - label: I searched the existing Issues and did not find the same problem.
+          required: true
+        - label: This Issue focuses on one primary problem; related observations are included under additional context.
+          required: true
+        - label: I confirm that the content above contains no accounts, keys, personal information, or other sensitive information.
+          required: true
+        - label: I confirm that this report contains no security-vulnerability exploitation details; security issues will not be disclosed through a public Issue.
+          required: true
