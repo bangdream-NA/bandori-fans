@@ -1,80 +1,9 @@
+**简体中文** · [日本語](CHANGELOG.ja.md) · [English](CHANGELOG.en.md)
+
 # Changelog
 
-本文件记录 bandori.fans **网站功能**的对外可见更新，格式参考 [Keep a Changelog](https://keepachangelog.com/)。完整逐次提交记录见本仓库的 commit 历史与 Pull Request。
+bandori.fans **网站功能**的更新记录见本仓库的 **[Releases](../../releases)** 页面（按版本发布，含三语正文）。
 
-> 英文 / 日文摘要见站内对应语言的更新日志页：[EN](https://bandori.fans/en/contribute/changelog) · [日本語](https://bandori.fans/ja/contribute/changelog)。本文件仅维护中文版，不做三语同步翻译。
+站内也有对应的更新日志页面：[简体中文](https://bandori.fans/zh-Hans/contribute/changelog) · [English](https://bandori.fans/en/contribute/changelog) · [日本語](https://bandori.fans/ja/contribute/changelog)。
 
-## 2026-06
-
-- 社区曲目单众包上线——可在演出页提交曲目单,经审核后更新到资料库
-- 演出详情新增运营信息:物販 / 整理券 / 特典(取自 bang-dream.com)
-- 演出详情新增动态购票状态徽章(受付中 / 已结束)
-- 会场详情大幅丰富:建筑实景照(CC-BY-SA 署名)、座位图链接、「该会场举办的演出数」、会场名链接与地图链接
-- 补充约 39 个会场的实景照与基础位置 / 地址数据
-- 日历订阅(ICS)支持按类别筛选,新增 10 类选择器
-- CD 初回特典抽選券与对应演出互相链接
-- 新增「友联」导航标签与友情链接页面
-- 全站启用 ⌘K / Ctrl+K 搜索快捷键(自动适配 Mac / Windows 提示符)
-- 演出页补全结构化数据(演出者 / 图片 / 地点),利于搜索引擎收录
-- 服务条款扩充至 15 节,提交改为双表单分别同意
-- 更换站点图标
-- 首页演出条、聚光灯与日历数据完全同步,修复首页日历不一致
-- 日历「购票中 / 受付」列表每行正确跳转到对应演出,修复死链
-- 公开订正应用链路修复——场馆名等订正经审核后可正确生效
-- 无曲目单的演出显示友好的「来补充曲目」邀请按钮
-- 唱片库移除冗余的乐队筛选,快捷入口计数标签更诚实(全目录不再误标「最新」)
-- 新闻页计数与分页总数一致,外链改为显示域名标签(修复窄屏溢出)
-- 多处乐队色块、计数徽章、错误文字对比度达到 WCAG AA(深色模式同样可读)
-- 列表筛选(演出时间 / 乐队状态)改为单选互斥
-- 移动端改进:顶栏不再被裁剪、语言切换器适配窄屏、长标题正确换行、搜索不横向溢出、新增排序入口与更大触控目标
-- 错误页 / 未找到页改为三语按钮 + 深色主题适配
-- 多项无障碍改进:订正表单成功后焦点移动、可点击行恢复表格语义、日历导航地标、角色出演行结构、列表行朗读完整标题
-- 纪念日页不再混入购票窗口事件;未来 / 无法解析的演出隐藏曲目单提交入口
-- 性能优化:自托管分语言字体、移除未用代码与编译器、优化首屏与图片加载
-
-## 2026-05
-
-- 演出详情页新增「该场次参演艺人」和五项 loose-end 字段呈现
-- 角色详情页拆分姓 / 名并显示读音,作词作曲家姓名也支持同样的拆分
-- 乐队详情页新增系列(series)与跨乐队企划(artist_series)的交叉链接
-- 所有详情页底部新增统一的资料来源徽章(entity_sources)
-- 乐队详情页新增成员阵容时间线(artist_configurations)
-- 曲目列表与详情新增多语言标题与罗马音呈现
-- 会场详情新增「该会场举办过的演出」横向链接
-- 新增 /random 路由:从所有条目随机跳转一条,作为闲逛入口
-- 首页 LiveSpotlight、WhatDay、BandSwitcher 三处生产事故修复
-- 条目搜索接受编码与未编码两种 slug,解决部分中日文条目 404 问题
-- /cast/[slug] 自动 308 跳转至统一的 /voice-actors/[slug]
-- 新闻详情页改用统一的 bf-detail-page 布局,与其他子库视觉一致
-- 影像(videogram)卡片链接修复,跳转至 /releases 解析器认得的格式
-- 列表筛选与列表头全面国际化,枚举单元格按语言渲染
-- 首页生产环境 SSR 报错(digest 68744793)修复
-- 幕后:更新了让资料库保持最新的数据采集管线
-- 未找到页面新增各子库的浏览入口,让无效网址成为起点而非死路
-- 日历与纪念日页面的「今天」改按日本时间计算,日期切换更一致
-- Setlist 页面按每场演出各自的标题分组展示曲目
-- 未找到页面的导航链接在手机上达到舒适的全尺寸触控目标
-- 曲目详情页不再重复列出同一场演出
-- 会场页面改用可读网址(如 /venues/crypto-com-arena)
-- 资料库「声优 / 成员」卡显示「N 团体 · M 人」的诚实计数
-- 新闻筛选升级为 9 类细分
-- 资料库新增「歌曲」子库入口卡
-- 公开订正表单在 /contribute/fix 上线——提交内容经审核后才会更新数据
-
-## 2026-04 – 2026-03
-
-- 10 个 v1 子库的列表与详情布局重写,visuals 与原始原型 1:1 对齐
-- Cloudflare Worker 与同区域 Pages 之间的内部抓取改走 workers.dev,绕过同 zone 静默丢数据
-- VPS 自动化部署链路修复,Worker 与 Pages 现可在 push 到 main 后自动滚动
-- 演出 / 唱片 / 角色 / 声优四张详情页深度补全:版本列表、声优履历、多艺人参演、收录与现场履历
-- /cast → /voice-actors、/characters/[id] → /character/[slug] 路由整合
-- data 模块 R-data.10 系列:v1 schema 与页面渲染的差距整改与跨链接补足
-
-## 2026-02
-
-- 新增官方资料来源策略文档(docs/source-policy.md)与各来源 ToS / robots.txt 存档
-- BanG Dream! Project 创作指引 safe harbor 条款的引用与披露
-
----
-
-完整改动详见 GitHub 仓库 [bangdream-NA/bandori-fans](https://github.com/bangdream-NA/bandori-fans) 的提交记录与 Pull Request。
+完整逐次提交记录见本仓库的 commit 历史与 Pull Request。

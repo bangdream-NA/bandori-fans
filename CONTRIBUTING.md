@@ -1,3 +1,5 @@
+**简体中文** · [日本語](CONTRIBUTING.ja.md) · [English](CONTRIBUTING.en.md)
+
 # 参与共建 / Contributing
 
 感谢你对 bandori.fans 的兴趣！这里说明不同类型的贡献该走哪个入口。
@@ -25,11 +27,3 @@
 ## 行为准则
 
 参与本项目的所有讨论与协作均需遵守 [行为准则](CODE_OF_CONDUCT.md)。
-
-## Appendix — English Summary
-
-Bugs, feature requests, and structural data issues go through this repo's Issue forms (with `_en`/`_ja` variants). For correcting a specific database entry, use the in-site correction form at bandori.fans/zh-Hans/contribute/fix. Read the in-site Entry Editing Guide before contributing. Long-term collaborators can apply via the Contributor Application issue form. All contributors must follow the Code of Conduct.
-
-## 付録 — 日本語要約
-
-バグ報告、機能提案、構造的なデータ問題は、本リポジトリの Issue テンプレート（`_en`/`_ja` 版あり）からご提出ください。個別のデータ項目の訂正は、サイト内の訂正フォーム（bandori.fans/zh-Hans/contribute/fix）をご利用ください。貢献前に、サイト内の「項目編集ガイド」を必ずお読みください。長期的な協力については、共同運営申請の Issue フォームからご応募ください。すべての貢献者は行動規範を遵守してください。

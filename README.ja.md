@@ -176,7 +176,7 @@ BanG Dream! シリーズ全体の公式情報とコミュニティ情報をま�
 - **訂正フォーム**：各項目の「訂正」入口から開くと、報告対象が自動入力されます。ページ URL を手動で貼り付けることもできます。「問題の種類」「対象フィールド」を選択でき、「正しい内容」は必須です。情報源 URL、補足説明、連絡先は任意です。
 - **その他の入口**：フッターには、**項目編集ガイド**（ネタバレを避ける、公式情報源を明記する、非商用、プライバシーを尊重する、中立性を保つ）、**お問い合わせ**、**更新履歴**もあります。
 
-📄 [LICENSE](LICENSE) · 🔒 [SECURITY](SECURITY.md) · 🤝 [CONTRIBUTING](CONTRIBUTING.md) · ⚖️ [LEGAL](LEGAL.md) · 📝 [CHANGELOG](CHANGELOG.md) · 📜 [CODE OF CONDUCT](CODE_OF_CONDUCT.md)
+📄 [LICENSE](LICENSE) · 🔒 [SECURITY](SECURITY.ja.md) · 🤝 [CONTRIBUTING](CONTRIBUTING.ja.md) · ⚖️ [LEGAL](LEGAL.ja.md) · 📝 [CHANGELOG](CHANGELOG.ja.md) · 📜 [CODE OF CONDUCT](CODE_OF_CONDUCT.ja.md)
 
 ---
 

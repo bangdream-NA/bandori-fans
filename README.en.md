@@ -176,7 +176,7 @@ Found an error? Any visitor can submit a correction online.
 - **Correction form**: Opening it from an entry’s “Correction” link automatically includes the reported item, or you can paste the page URL manually. Select the “Issue type” and “Affected field,” enter the required “Correct information,” and optionally provide a source URL, additional notes, and contact details.
 - **More links**: The footer also includes an **Entry Editing Guide** (avoid spoilers, cite official sources, remain noncommercial, respect privacy, and stay neutral), **Contact Us**, and the **Changelog**.
 
-📄 [LICENSE](LICENSE) · 🔒 [SECURITY](SECURITY.md) · 🤝 [CONTRIBUTING](CONTRIBUTING.md) · ⚖️ [LEGAL](LEGAL.md) · 📝 [CHANGELOG](CHANGELOG.md) · 📜 [CODE OF CONDUCT](CODE_OF_CONDUCT.md)
+📄 [LICENSE](LICENSE) · 🔒 [SECURITY](SECURITY.en.md) · 🤝 [CONTRIBUTING](CONTRIBUTING.en.md) · ⚖️ [LEGAL](LEGAL.en.md) · 📝 [CHANGELOG](CHANGELOG.en.md) · 📜 [CODE OF CONDUCT](CODE_OF_CONDUCT.en.md)
 
 ---
 

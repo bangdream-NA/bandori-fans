@@ -1,3 +1,5 @@
+**简体中文** · [日本語](LEGAL.ja.md) · [English](LEGAL.en.md)
+
 # 法律声明 / Legal
 
 本页面为要点摘要；**完整、具有效力的法律文本以站内 [使用条款](https://bandori.fans/zh-Hans/legal/terms) 与 [隐私政策](https://bandori.fans/zh-Hans/legal/privacy) 为准**，如有出入，以 LIVE 站点当前版本为准。
@@ -17,11 +19,3 @@ bandori.fans 是一个由个人粉丝义工运营的**非官方、非商业**粉
 ## 删改与版权申诉
 
 如果你是版权或商标权人，认为本仓库或 bandori.fans 网站上的内容侵犯了你的权利，请发送邮件至 `contact[at]bangdream.org`，说明：(1) 你的身份与联系方式；(2) 你所拥有作品的标识；(3) 你要求处理的具体内容/URL；(4) 你的诉求。我们会在 72 小时内响应，并视情况删除、修正或注明争议内容。完整流程见站内《使用条款》第十一节。
-
-## Appendix — English Summary
-
-bandori.fans is an unofficial, non-commercial fan project with no affiliation to Bushiroad Inc., Craft Egg Inc., DeNA Co., Ltd., or the BanG Dream! Project. The CC BY-NC-SA 4.0 license in this repository's LICENSE file applies only to this project's own original content — never to BanG Dream! trademarks, characters, songs, artwork, or other rights-holder material. For the complete, authoritative Terms of Service and Privacy Policy, see the live site's /legal/terms and /legal/privacy pages. Copyright/trademark takedown requests: contact[at]bangdream.org.
-
-## 付録 — 日本語要約
-
-bandori.fans は個人ファンによる非公式・非営利のファンプロジェクトであり、株式会社ブシロード、Craft Egg、DeNA、および BanG Dream! Project とは一切関係ありません。本リポジトリの LICENSE（CC BY-NC-SA 4.0）は本プロジェクト自身のオリジナルコンテンツにのみ適用され、BanG Dream! の商標・キャラクター・楽曲・素材等には適用されません。正式な利用規約・プライバシーポリシーの全文は、サイト内の該当ページをご参照ください。著作権・商標に関する削除依頼は contact[at]bangdream.org までご連絡ください。

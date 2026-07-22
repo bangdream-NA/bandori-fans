@@ -1,3 +1,5 @@
+**简体中文** · [日本語](CODE_OF_CONDUCT.ja.md) · [English](CODE_OF_CONDUCT.en.md)
+
 # 行为准则 / Code of Conduct
 
 本行为准则改写自 [Contributor Covenant](https://www.contributor-covenant.org) 2.1 版精简版，遵循同一精神，语气更贴近一个友好的粉丝社区。
@@ -46,11 +48,3 @@
 ## 引用
 
 本行为准则改写自 [Contributor Covenant](https://www.contributor-covenant.org) 2.1 版（[原文](https://www.contributor-covenant.org/version/2/1/code_of_conduct.html)），处理准则的分级理念参考了 [Mozilla 的社区准则执行阶梯](https://github.com/mozilla/diversity)。
-
-## Appendix — English Summary
-
-This Code of Conduct is a condensed adaptation of Contributor Covenant 2.1, written in a friendlier tone for a fan community. Report violations privately via this repository's Private Vulnerability Reporting (Security tab → "Report a vulnerability") — GitHub has no dedicated private Code-of-Conduct reporting form, so we repurpose this existing channel; please note in your report that it concerns conduct, not a security vulnerability. See the full Contributor Covenant 2.1 text at contributor-covenant.org for the unabridged original.
-
-## 付録 — 日本語要約
-
-本行動規範は Contributor Covenant 2.1 を、より親しみやすい語調で要約・翻案したものです。違反を報告する場合は、本リポジトリの Private Vulnerability Reporting（Security タブの「Report a vulnerability」）から非公開でご報告ください。GitHub には行動規範専用の非公開報告フォームがないため、この既存の窓口を代用しています。報告内容がセキュリティ脆弱性ではなく行動に関するものである旨を、報告文中に明記してください。原文全文は contributor-covenant.org をご参照ください。
