@@ -12,12 +12,25 @@
 [![Trilingual](https://img.shields.io/badge/Languages-简体_·_日本語_·_EN-4A90D9?style=for-the-badge&labelColor=1a1916)](https://bandori.fans)
 [![Subscribable Calendar](https://img.shields.io/badge/📅_Calendar-Subscribable_ICS-34A853?style=for-the-badge&labelColor=1a1916)](https://bandori.fans/zh-Hans/calendar)
 [![Unofficial](https://img.shields.io/badge/Unofficial-Fan_Project-9B59B6?style=for-the-badge&labelColor=1a1916)](https://bandori.fans)
+[![License](https://img.shields.io/badge/license-CC%20BY--NC--SA%204.0-92400E?style=for-the-badge&labelColor=1a1916)](LICENSE)
 
 **[🌐 Visit the Website](https://bandori.fans)**　·　**[💬 Send Feedback / Submit a Correction](../../issues)**
 
 </div>
 
 ---
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset=".github/assets/home-hero-dark.png">
+  <source media="(prefers-color-scheme: light)" srcset=".github/assets/home-hero-light.png">
+  <img src=".github/assets/home-hero-light.png" alt="Screenshot of the bandori.fans home page, showing the live data bar, site-wide search, band color switcher, and upcoming live shows" width="860">
+</picture>
+
+*(Screenshots show the Simplified Chinese UI — the live site also has English and Japanese.)*
+
+</div>
 
 > [!NOTE]
 > 🔴 This project is part of the **“North American BanG CiRCLE Rebuild · BanG Dream! Revival Project”** — the North American BanG Dream! community is using code to rebuild a gathering place like CiRCLE for Chinese-speaking BanG Dream! fans across North America.
@@ -32,6 +45,20 @@ bandori.fans is a fan database created for the BanG Dream! franchise (バンド�
 ## ✨ Key Features
 
 - **10 bands, one-click immersion** — Select any band (POPPIN’PARTY, Roselia, MyGO!!!!!, Ave Mujica, and more), and the entire website adopts that band’s signature colors. The home page, news, and calendar are all filtered so you see only the band you care about.
+
+<table>
+<tr>
+<td align="center" width="50%">
+<img src=".github/assets/home-hero-light.png" alt="Home page in its default state, before selecting any band" width="420"><br>
+<sub>// DEFAULT</sub>
+</td>
+<td align="center" width="50%">
+<img src=".github/assets/band-recolor-poppinparty.png" alt="After selecting POPPIN'PARTY, the entire site adopts the band's signature colors" width="420"><br>
+<sub>// AFTER SELECTING POPPIN'PARTY</sub>
+</td>
+</tr>
+</table>
+
 - **A real-time subscribable calendar** — Add live shows, events, and CD releases to your preferred Google, Apple, or Outlook calendar with one click. It updates automatically, so you never miss a ticket sale or release.
 - **A fully interconnected database** — Songs ⇄ bands ⇄ characters ⇄ voice actors ⇄ CDs ⇄ live shows ⇄ venues. Every entry leads to related entries, letting you explore continuously through linked information.
 - **Three languages + light and dark themes** — Switch freely between 简体, 日本語, and EN, and choose light, dark, or system theme. Your choices are remembered.
@@ -71,6 +98,14 @@ See all live shows, events, and releases on one page, and sync them to your own 
 - **Calendar subscriptions**: Provides a subscription URL (with one-click “Copy”) and three one-click buttons: “Google Calendar ↗,” “Apple Calendar ↗,” and “Outlook ↗,” together with step-by-step setup instructions. Subscriptions update automatically. When filtering by band, the feed becomes band-specific (for example, “Subscribe to the Roselia calendar”).
 - **Three views**: Calendar, ticketing (an upcoming ticket-sales schedule), and list (an upcoming-events schedule).
 - **Category filters**: All / Live Shows / Events / Releases / Ticket Sales / Talks / Fan Meetings / Exhibitions / In-store Events / Pop-up Stores / Collaboration Cafés, with a distinct color for each category.
+
+<table>
+<tr><td align="center">
+<img src=".github/assets/calendar-grid.png" alt="Calendar month view showing live shows, events, and release schedules, with today highlighted" width="860"><br>
+<sub>// CALENDAR MONTH VIEW</sub>
+</td></tr>
+</table>
+
 - **Month navigation**: Previous month / Today / Next month plus year and month selectors. Your band, category, and view selections are preserved while navigating.
 - **Month view (desktop)**: A seven-column weekly grid with today highlighted. When a day has too many events, “+N items” expands the rest. Canceled events are labeled and struck through. A “Ticketing Schedule” panel above the calendar also lists each ticket-sales window for the month.
 - **Mobile**: Switches to a vertical “Schedule” list showing only dates with events, with a separate “This Month’s Ticketing Windows” section.
@@ -141,12 +176,27 @@ Found an error? Any visitor can submit a correction online.
 - **Correction form**: Opening it from an entry’s “Correction” link automatically includes the reported item, or you can paste the page URL manually. Select the “Issue type” and “Affected field,” enter the required “Correct information,” and optionally provide a source URL, additional notes, and contact details.
 - **More links**: The footer also includes an **Entry Editing Guide** (avoid spoilers, cite official sources, remain noncommercial, respect privacy, and stay neutral), **Contact Us**, and the **Changelog**.
 
+📄 [LICENSE](LICENSE) · 🔒 [SECURITY](SECURITY.en.md) · 🤝 [CONTRIBUTING](CONTRIBUTING.en.md) · ⚖️ [LEGAL](LEGAL.en.md) · 📝 [CHANGELOG](CHANGELOG.en.md) · 📜 [CODE OF CONDUCT](CODE_OF_CONDUCT.en.md)
+
 ---
 
 ## 🌐 Languages and Light/Dark Themes
 
 - **Three-language switching**: Use “简体 | 日本語 | EN” in the top navigation. Switching languages **preserves your current page and filter settings** instead of returning you to the home page.
 - **Light/dark themes**: The theme button cycles through **Light → Dark → Follow System** (☀ / ☾ / ⌬), and your choice is remembered.
+
+<table>
+<tr>
+<td align="center" width="50%">
+<img src=".github/assets/home-hero-light.png" alt="The home page in light theme" width="420"><br>
+<sub>☀ LIGHT</sub>
+</td>
+<td align="center" width="50%">
+<img src=".github/assets/home-hero-dark.png" alt="The home page in dark theme" width="420"><br>
+<sub>☾ DARK</sub>
+</td>
+</tr>
+</table>
 
 ---
 
@@ -168,7 +218,7 @@ Fully adapted for mobile browsing: the calendar automatically switches to a vert
 
 bandori.fans is an **unofficial fan site** for the BanG Dream! franchise, maintained collaboratively by fan volunteers. It is **nonprofit and unofficial** and has no affiliation with Bushiroad Inc. or any of its affiliated companies. The accuracy of all information cannot be guaranteed — please use the correction form to help us improve the database. We also welcome long-term collaboration from native Japanese or English speakers and anyone familiar with the history of the franchise’s subprojects.
 
-Original content is shared under **[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)**.
+Original content is shared under **[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)** (see this repository's [LICENSE](LICENSE) file for the complete license).
 
 <div align="center">
 

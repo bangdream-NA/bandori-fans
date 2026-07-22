@@ -12,6 +12,7 @@ body:
         Thank you for your feedback! This repository receives public feedback and data corrections for bandori.fans, which the maintenance team will review and follow up on.
         Please focus on publicly observable behavior, and do not submit accounts, keys, personal information, or other sensitive information. If the issue concerns incorrect site data, please use the “Data correction” form instead.
         If you suspect a security vulnerability, do not disclose reproduction details, attack payloads, or any sensitive data in a public Issue.
+        Please report it privately instead via the channel described in [SECURITY.md](../../SECURITY.md).
 
   - type: input
     id: affected_url
