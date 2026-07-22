@@ -12,12 +12,25 @@
 [![3言語](https://img.shields.io/badge/3言語-简体_·_日本語_·_EN-4A90D9?style=for-the-badge&labelColor=1a1916)](https://bandori.fans)
 [![購読可能なカレンダー](https://img.shields.io/badge/📅_カレンダー-購読可能_ICS-34A853?style=for-the-badge&labelColor=1a1916)](https://bandori.fans/zh-Hans/calendar)
 [![非公式](https://img.shields.io/badge/非公式-ファンプロジェクト-9B59B6?style=for-the-badge&labelColor=1a1916)](https://bandori.fans)
+[![License](https://img.shields.io/badge/license-CC%20BY--NC--SA%204.0-92400E?style=for-the-badge&labelColor=1a1916)](LICENSE)
 
 **[🌐 ウェブサイトを見る](https://bandori.fans)**　·　**[💬 フィードバック / 訂正を送る](../../issues)**
 
 </div>
 
 ---
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset=".github/assets/home-hero-dark.png">
+  <source media="(prefers-color-scheme: light)" srcset=".github/assets/home-hero-light.png">
+  <img src=".github/assets/home-hero-light.png" alt="bandori.fans トップページの実際の画面。リアルタイムデータバー、サイト内検索、バンドカラー切り替え、近日のライブ情報を表示" width="860">
+</picture>
+
+*(スクリーンショットは簡体中国語UIです。サイトは日本語・英語にも対応しています。)*
+
+</div>
 
 > [!NOTE]
 > 🔴 本プロジェクトは **「北米バンドリ CiRCLE 再建 · バンドリ復興計画」** の一環です——北米のバンドリファンコミュニティがコードの力で、北米の中国語圏に暮らすバンドリファンのために、CiRCLE のように集まれる場所を再建します。
@@ -32,6 +45,20 @@ bandori.fans は、BanG Dream! シリーズ（バンドリ）のために生ま�
 ## ✨ 主な特長
 
 - **10 バンドの世界へワンクリックで没入** —— 好きなバンド（Poppin'Party、Roselia、MyGO!!!!!、Ave Mujica など）を選ぶと、サイト全体がそのバンドのブランドカラーに変わります。トップページ、ニュース、カレンダーもすべて絞り込まれ、関心のあるバンドだけを表示できます。
+
+<table>
+<tr>
+<td align="center" width="50%">
+<img src=".github/assets/home-hero-light.png" alt="バンドを選択していないデフォルト状態のトップページ" width="420"><br>
+<sub>// デフォルト</sub>
+</td>
+<td align="center" width="50%">
+<img src=".github/assets/band-recolor-poppinparty.png" alt="POPPIN'PARTY を選択すると、サイト全体がそのバンドカラーに染まる" width="420"><br>
+<sub>// POPPIN'PARTY 選択後</sub>
+</td>
+</tr>
+</table>
+
 - **購読できるリアルタイムカレンダー** —— ライブ、イベント、CD リリースを、普段使っている Google / Apple / Outlook カレンダーへワンクリックで同期できます。自動更新されるため、チケット発売やリリースを見逃しません。
 - **すべてがつながるデータネットワーク** —— 楽曲 ⇄ バンド ⇄ キャラクター ⇄ キャスト ⇄ CD ⇄ ライブ ⇄ 会場。どの項目からも関連項目へ移動でき、リンクをたどってどこまでも楽しめます。
 - **3言語 + ライト／ダークテーマ** —— 简体 / 日本語 / EN を自由に切り替えられ、ライト / ダーク / システム設定に追従から選択できます。選択内容は保存されます。
@@ -71,6 +98,14 @@ BanG Dream! シリーズ全体の公式情報とコミュニティ情報をま�
 - **カレンダー購読**：購読リンク（「コピー」でワンクリックコピー）と、「Google カレンダー ↗」「Apple カレンダー ↗」「Outlook ↗」の 3 つの追加ボタンを用意し、手順付きの「追加方法」も掲載しています。内容は自動更新されます。バンドで絞り込むと、そのバンド専用の購読フィードになります（例：「Roselia のカレンダーを購読」）。
 - **3 つの表示形式**：月間カレンダー、チケット（今後のチケット販売スケジュール）、リスト（今後のイベント予定）があります。
 - **カテゴリ絞り込み**：すべて / ライブ / イベント / リリース / チケット販売 / トーク / ファンミーティング / 展示 / 店舗イベント / ポップアップストア / コラボカフェ。カテゴリごとに色分けされます。
+
+<table>
+<tr><td align="center">
+<img src=".github/assets/calendar-grid.png" alt="ライブ・イベント・リリース予定を表示するカレンダー月表示。今日の日付がハイライトされている" width="860"><br>
+<sub>// カレンダー月表示</sub>
+</td></tr>
+</table>
+
 - **月の移動**：前月 / 今日 / 翌月 + 年月セレクター。移動しても、バンド、カテゴリ、表示形式の選択は保持されます。
 - **月表示（デスクトップ）**：7 列の週グリッドで、今日を強調表示します。イベントが多い日は「+N 件」から展開できます。中止イベントには印と取り消し線が付きます。上部の「チケット販売期間」パネルには、その月の販売期間が 1 件ずつ表示されます。
 - **モバイル**：縦型の「スケジュール」リストへ切り替わり、予定のある日だけを表示します。「今月のチケット販売期間」セクションもあります。
@@ -141,12 +176,27 @@ BanG Dream! シリーズ全体の公式情報とコミュニティ情報をま�
 - **訂正フォーム**：各項目の「訂正」入口から開くと、報告対象が自動入力されます。ページ URL を手動で貼り付けることもできます。「問題の種類」「対象フィールド」を選択でき、「正しい内容」は必須です。情報源 URL、補足説明、連絡先は任意です。
 - **その他の入口**：フッターには、**項目編集ガイド**（ネタバレを避ける、公式情報源を明記する、非商用、プライバシーを尊重する、中立性を保つ）、**お問い合わせ**、**更新履歴**もあります。
 
+📄 [LICENSE](LICENSE) · 🔒 [SECURITY](SECURITY.md) · 🤝 [CONTRIBUTING](CONTRIBUTING.md) · ⚖️ [LEGAL](LEGAL.md) · 📝 [CHANGELOG](CHANGELOG.md) · 📜 [CODE OF CONDUCT](CODE_OF_CONDUCT.md)
+
 ---
 
 ## 🌐 多言語とライト／ダークテーマ
 
 - **3言語切り替え**：トップバーの「简体 | 日本語 | EN」から切り替えられます。言語を切り替えても、**現在のページと絞り込み条件は維持され**、トップページへ戻されることはありません。
 - **ライト／ダークテーマ**：テーマボタンは、**ライト → ダーク → システム設定に追従**の順で切り替わります（☀ / ☾ / ⌬）。選択内容は保存されます。
+
+<table>
+<tr>
+<td align="center" width="50%">
+<img src=".github/assets/home-hero-light.png" alt="ライトテーマのトップページ" width="420"><br>
+<sub>☀ ライト</sub>
+</td>
+<td align="center" width="50%">
+<img src=".github/assets/home-hero-dark.png" alt="ダークテーマのトップページ" width="420"><br>
+<sub>☾ ダーク</sub>
+</td>
+</tr>
+</table>
 
 ---
 
@@ -168,7 +218,7 @@ BanG Dream! シリーズ全体の公式情報とコミュニティ情報をま�
 
 bandori.fans は BanG Dream! シリーズの**非公式ファンサイト**であり、ファン有志によって共同で維持されています。**非営利・非公式**で、株式会社ブシロードおよびその関連会社とは一切関係ありません。情報の完全な正確性は保証していません——訂正フォームを通じて、より正確なデータ作りにぜひご協力ください。日本語／英語のネイティブスピーカー、または各サブプロジェクトの歴史に詳しい方による長期的な協力も歓迎します。
 
-オリジナルコンテンツは **[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)** のもとで共有されます。
+オリジナルコンテンツは **[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)** のもとで共有されます（完全なライセンス条文はリポジトリの [LICENSE](LICENSE) ファイルをご覧ください）。
 
 <div align="center">
 

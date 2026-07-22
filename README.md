@@ -12,12 +12,23 @@
 [![三语](https://img.shields.io/badge/三语-简体_·_日本語_·_EN-4A90D9?style=for-the-badge&labelColor=1a1916)](https://bandori.fans)
 [![可订阅日历](https://img.shields.io/badge/📅_日历-可订阅_ICS-34A853?style=for-the-badge&labelColor=1a1916)](https://bandori.fans/zh-Hans/calendar)
 [![非官方](https://img.shields.io/badge/非官方-粉丝项目-9B59B6?style=for-the-badge&labelColor=1a1916)](https://bandori.fans)
+[![License](https://img.shields.io/badge/license-CC%20BY--NC--SA%204.0-92400E?style=for-the-badge&labelColor=1a1916)](LICENSE)
 
 **[🌐 访问网站](https://bandori.fans)**　·　**[💬 反馈 / 提交订正](../../issues)**
 
 </div>
 
 ---
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset=".github/assets/home-hero-dark.png">
+  <source media="(prefers-color-scheme: light)" srcset=".github/assets/home-hero-light.png">
+  <img src=".github/assets/home-hero-light.png" alt="bandori.fans 首页实拍，展示实时数据条、全站搜索、团体配色切换与近期演出" width="860">
+</picture>
+
+</div>
 
 > [!NOTE]
 > 🔴 本项目是 **「北美邦 CiRCLE 重建 · 邦多利复兴计划」** 的一部分 —— 北美炸梦同好会用代码,为北美华语圈的邦多利同好,重建一处像 CiRCLE 一样的聚集地。
@@ -32,6 +43,20 @@ bandori.fans 是一座为 BanG Dream! 系列(バンドリ)而生的粉丝资料�
 ## ✨ 核心亮点
 
 - **10 个团体,一键沉浸** —— 选中任意乐队(POPPIN'PARTY、Roselia、MyGO!!!!!、Ave Mujica……),整个网站会染上该团体的专属品牌色,首页、新闻、日历全部随之过滤,只看你关心的那支乐队。
+
+<table>
+<tr>
+<td align="center" width="50%">
+<img src=".github/assets/home-hero-light.png" alt="首页默认状态，未选择任何团体" width="420"><br>
+<sub>// 默认</sub>
+</td>
+<td align="center" width="50%">
+<img src=".github/assets/band-recolor-poppinparty.png" alt="点击选中 POPPIN'PARTY 后，全站染上该团体的品牌色" width="420"><br>
+<sub>// 选中 POPPIN'PARTY 后</sub>
+</td>
+</tr>
+</table>
+
 - **可订阅的实时日历** —— 一键把演出、活动、CD 发售同步进你常用的 Google / Apple / Outlook 日历,自动更新,再也不错过开票和发售。
 - **环环相扣的资料网** —— 歌曲 ⇄ 团体 ⇄ 角色 ⇄ 声优 ⇄ CD ⇄ 演出 ⇄ 会场,任一条目都通向相关条目,顺着链接逛个不停。
 - **三语 + 深浅主题** —— 简体 / 日本語 / EN 随心切换,浅色 / 深色 / 跟随系统任你选,选择会被记住。
@@ -71,6 +96,14 @@ bandori.fans 是一座为 BanG Dream! 系列(バンドリ)而生的粉丝资料�
 - **订阅日历**:提供订阅链接(一键「复制」)+「Google 日历 ↗」「Apple 日历 ↗」「Outlook ↗」三个一键添加按钮,并附「如何添加」分步说明。自动更新;若按团体过滤,订阅源会变成该团体专属(如「订阅 Roselia 日历」)。
 - **三种视图**:月历、票务(即将到来的购票时间表)、列表(即将活动日程)。
 - **类别筛选**:全部 / 演出 / 活动 / 发售 / 售票 / 谈话 / 粉丝会 / 展览 / 门店活动 / 快闪店 / 联动咖啡,不同类别以不同颜色区分。
+
+<table>
+<tr><td align="center">
+<img src=".github/assets/calendar-grid.png" alt="日历月视图，显示演出、活动与发售日程，今天高亮显示" width="860"><br>
+<sub>// 日历月视图</sub>
+</td></tr>
+</table>
+
 - **月份导航**:上月 / 今日 / 下月 + 年月选择器;切换时团体、类别、视图选择都会保留。
 - **月视图(桌面)**:7 列周网格,今天高亮,过多事件「+N 件」可展开;已取消活动带标记并划线;上方还有「购票时间」面板逐条列出本月购票窗口。
 - **移动端**:改为竖向「日程」列表,只列有安排的日期,并附「本月购票窗口」区。
@@ -141,12 +174,27 @@ bandori.fans 是一座为 BanG Dream! 系列(バンドリ)而生的粉丝资料�
 - **提交订正表单**:从某条目「订正」入口进入会自动带上报告对象,也可手动粘贴页面 URL;可选「问题类型」「涉及字段」,必填「正确内容应为」,选填来源 URL、补充说明、联系方式。
 - **更多入口**:页脚还有**条目编辑指南**(不剧透、标注官方来源、非商业、尊重隐私、保持中立)、**联系我们**、**更新日志**。
 
+📄 [LICENSE](LICENSE) · 🔒 [SECURITY](SECURITY.md) · 🤝 [CONTRIBUTING](CONTRIBUTING.md) · ⚖️ [LEGAL](LEGAL.md) · 📝 [CHANGELOG](CHANGELOG.md) · 📜 [CODE OF CONDUCT](CODE_OF_CONDUCT.md)
+
 ---
 
 ## 🌐 多语言与深浅主题
 
 - **三语切换**:顶栏「简体 | 日本語 | EN」,切换语言会**保留你当前所在的页面和筛选条件**,不会把你弹回首页。
 - **深浅主题**:主题按钮在**浅色 → 深色 → 跟随系统**间循环(☀ / ☾ / ⌬),选择会被记住。
+
+<table>
+<tr>
+<td align="center" width="50%">
+<img src=".github/assets/home-hero-light.png" alt="浅色主题下的首页" width="420"><br>
+<sub>☀ 浅色</sub>
+</td>
+<td align="center" width="50%">
+<img src=".github/assets/home-hero-dark.png" alt="深色主题下的首页" width="420"><br>
+<sub>☾ 深色</sub>
+</td>
+</tr>
+</table>
 
 ---
 
@@ -168,7 +216,7 @@ bandori.fans 是一座为 BanG Dream! 系列(バンドリ)而生的粉丝资料�
 
 bandori.fans 是 BanG Dream! 系列的**非官方粉丝站点**,由粉丝义工共同维护,**非营利、非官方**,与株式会社 Bushiroad 及其关联公司无任何关系。不保证信息完全准确——欢迎你通过订正表单帮我们一起把资料修得更准。也欢迎日/英母语者或熟悉子项目历史的朋友长期协作。
 
-原创内容以 **[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)** 共享。
+原创内容以 **[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)** 共享（完整许可见仓库 [LICENSE](LICENSE) 文件）。
 
 <div align="center">
 
